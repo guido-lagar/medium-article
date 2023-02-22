@@ -1,0 +1,50 @@
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 120px 0;
+}
+.container {
+  width: 50px auto;
+  margin: 50px auto;
+  text-align: center;
+  color:rgb(255, 255, 255);
+}
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: left, justify;
+}
+.card {
+  margin: auto;
+  text-align: center;
+  width: 700px;
+}
+a {
+  background-color: linear-gradient(blue, yellow) ;
+}
+a:hover {
+  background-color: linear-gradient(black, white);
+}
+@media(max-width: 1200x) {
+  .container {
+    width: 900px;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
